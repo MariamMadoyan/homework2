@@ -1,18 +1,34 @@
 * {
     font-family: 'Nunito', sans-serif;
 }
+/* 
+.loginPage {
+    width: auto;
+    height: 100vh;
+}
 
 .somediv {
-    width: 500px;
-    height: 960px;
-    background-color: rgb(255, 255, 255);
-
+   display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .food_delivery {
     display: flex;
     justify-content: center;
     flex-direction: column;
+} */
+/* 
+.loginForm {
+    height: 80%;
+}
+
+.loginForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
 }
 
 
@@ -29,72 +45,67 @@
 }
 
 .login {
-    font-size: 50px;
-    letter-spacing: 0, 1px;
-    max-height: 82px;
-    max-width: 350px;
-    margin-left: 120px;
-    margin-top: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+}
 
+.rememberCheckbox {
+    margin-bottom: 40px;
+} */
+/* 
+.loginTitle {
+    font-size: 50px;
+
+}
+
+.loginText {
+    width: 80%;
 }
 
 #paragraph {
-    max-height: 0.4px;
-    max-width: 350px;
-    margin-left: 120px;
-    margin-top: -0.1px;
-    letter-spacing: 0.2px;
     color: #545563;
-
 }
 
-.email {
-    max-height: 16px;
-    max-width: 350px;
-    margin-left: 120px;
-    margin-top: 60px;
-    margin-bottom: 2px;
-    color: #545563;
+.loginField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
 
+.field {
+    height: 16px;
+    width: 350px;
+    color: #545563;
+    margin-bottom: 4px;
 }
 
 .com {
-    margin-left: 120px;
     border: 1px solid #C7C8D2;
-    min-height: 44px;
-    min-width: 350px;
-    left: 0px;
-    top: 20px;
+    height: 44px;
+    width: 350px;
     border-radius: 8px;
 
 }
 
 .password {
-    min-height: 16px;
-    min-width: 350px;
-    margin-left: 120px;
-    margin-top: 60px;
-    margin-bottom: 2px;
+    height: 16px;
+    width: 350px;
     color: #545563;
-
 }
-
-.checkbox {
-    margin-left: 120px;
-
-}
-
 .blue {
     background-color: #4E60FF;
-    min-height: 44px;
-    min-width: 350px;
-    margin-left: 115px;
-    margin-top: 62px;
+    height: 44px;
+    width: 350px;
     border-radius: 8px;
-}
+    color: #ffffff;
+} */
 
+/* 
 .login2 {
-    font-style: bold;
     font-size: 30px;
     letter-spacing: 0.3px;
     color: rgb(158, 37, 37);
@@ -104,33 +115,58 @@
 }
 
 .forgot {
-    min-width: 350px;
-    margin: 40px;
-    margin-left: 120px;
+    width: 350px;
     color: #4E60FF;
-
+    background-color: #ffffff;
+    border-style: none;
 }
 
 .text {
-    min-height: 20px;
-    min-width: 350px;
-    margin-left: 175px;
-    margin-top: 100px;
-
+    height: 20px;
+    width: 350px;
+    text-align: center;
 }
 
 .part {
     background-color: #697BFF;
     width: 800px;
-    height: 960px;
-    margin-left: 20px;
+} */
+/* 
+.loginButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
 
+.btns {
+    display: flex;
+    flex-direction: column;
+    height: 104px;
+    justify-content: space-between;
+} */
 
+.cards {
+    width: 100%;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .twodiv {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.foodDelivery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -139,26 +175,31 @@
     flex-wrap: wrap;
 }
 
+.twoCards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    flex-flow: row wrap;
+}
+
 .child1 {
     background-color: rgb(255, 255, 255);
-    margin-top: 48px;
-    margin-left: 95px;
-    height: 436.41143798828125px;
     width: 313px;
-    border-radius: 14.308571815490723px;
-
+    border-radius: 14px;
+    margin-right: 28px;
 }
 
 .child2 {
-    height: 360px;
     width: 294px;
-    margin-top: 80px;
-    margin-left: 40px;
-    border-radius: 13.440000534057617px;
+    border-radius: 13px;
     background-color: rgb(255, 255, 255);
     display: flex;
-    flex-flow: column nowrap;
-
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 71px;
 }
 
 
@@ -169,61 +210,75 @@ h3 {
 
 .four {
     color: #4E60FF;
-    margin: 15px;
 }
 
-
-/*
-.rating {
-    position: absolute;
-    transform: translate(-50%,-50%);
-    display: flex;
-    margin-left: 180px;
-
-}
-.rating label {
-    display:block;
-    cursor: pointer;
-    width: 30px;
-    background: #ccc;
+.ratingContainer {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
 }
 
-.rating label:before
-{
-    content: '\f005';
-    font-family: fontawesome;
-    position: relative;
-    display: block;
-    font-size: 19px;
-    color: #101010;
-}
-
-
-.rating label:after
-{
-    content: '\f005';
-    font-family: fontawesome;
-    position: absolute;
-    display: block;
-    font-size: 19px;
+.ratingIcon {
     color: #4E60FF;
-    top: 0;
-    opacity: 1;
-    transition: .5s;
-} */
+}
+
+.none {
+    color: #777;
+}
+
+.selectSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .flex {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 10px;
+}
 
+.nigiriSet {
+    width: 152px;
+    height: 105px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.nigiri {
+    border: none;
+}
+
+.nigiriSetImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sushiComment {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.sushiTitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B2B43;
 }
 
 .partone {
-    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
-.partthree {
-    margin: 20px;
+.commentLike {
+    margin-right: 15px;
 }
 
 .leave {
@@ -231,29 +286,26 @@ h3 {
     height: 40px;
     border-radius: 14px;
     color: #4E60FF;
+    border: 1px solid #4E60FF;
+    background-color: #ffffff;
 }
 
 .votes {
     color: #83859C;
     font-size: 9px;
-    margin-top: 80px;
-
 }
 
 .something {
-    margin-left: 60px;
-    height: 31.308570861816406px;
-    width: 148.34857177734375px;
+    height: 31px;
     border-radius: 8px;
-    padding: 8px, 8px, 8px, 12px;
-    color: #545563;
+    padding: 6px 8px 8px 12px;
 }
 
-.firstimg {
+.accountImg {
     width: 30px;
     height: 30px;
-    margin-top: 10px;
-    margin-right: 20px;
+    margin: 0 10px;
+    border-radius: 50%;
 }
 
 .img {
@@ -270,30 +322,46 @@ h3 {
 }
 
 
-#text {
+.commentText {
     height: 54px;
-    width: 241.4571533203125px;
+    width: 241px;
     color: #2B2B43;
     font-size: 14px;
 }
 
 
-
 .sushipic {
     width: 267px;
     height: 151px;
-    margin: 15px;
+    margin-top: 15px;
+    border-radius: 12px;
 }
 
-.rollset {
+.rollSet {
+    margin-top: 10px;
     margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.priceSection {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
 }
 
 .sometext {
     margin-left: 15px;
     color: #83859C;
-
-
+    font-size: 13px;
 }
 
 h6 {
@@ -309,7 +377,18 @@ h6 {
 
 .add {
     color: #4E60FF;
-    margin-left: 260px;
+    background-color: #F3F4FF;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.rollInfo {
+    display: flex;
+    flex-direction: column;
 }
 
 .like {
@@ -323,15 +402,23 @@ h6 {
     width: 20px;
 }
 
-.secondiv {
-    display: flex;
-    flex-flow: row nowrap;
-
+.comment {
+    align-items: start;
+    margin-top: 10px;
 }
 
-.secondimg {
-    width: 32px;
-    height: 32px;
+.commentRate {
+    justify-content: start;
+}
+
+.commentRatings {
+    padding: 0;
+    margin-right: 5px;
+}
+
+.account {
+    height: 100%;
+
 }
 
 .newdiv {
@@ -345,19 +432,29 @@ h6 {
 
 
 .child3 {
-    height: 152px;
     width: 638px;
-    border-radius: 13.545206069946289px;
+    border-radius: 14px;
     background-color: rgb(255, 255, 255);
-    margin-left: 65px;
     display: flex;
-    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: -1px -1px 10px 0 rgb(0 0 0 / 70%);
+    padding: 13px;
 }
 
 .foodText {
     margin-bottom: 0;
 }
 
+.sushiPart {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    left: -25px;
+}
 
 .sushi {
     height: 102px;
@@ -368,8 +465,6 @@ h6 {
     height: 31px;
     width: 270.90411376953125px;
     color: #83859C;
-
-
 }
 
 .number {
@@ -380,7 +475,26 @@ h6 {
 }
 
 .take {
-    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.increment {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .set {
@@ -393,29 +507,37 @@ h6 {
 
 .input {
     color: #4E60FF;
-    background-color: #b1afaf;
-    border-radius: 30px;
+    background-color: #F3F4FF;
+    border-radius: 7px;
+    border-style: none;
+    width: 112px;
+    height: 37px;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    background-color: #EDEEF2;
+    border-radius: 7px;
 }
 
 .leavetwo {
     font-size: 32px;
     font-weight: 700;
     line-height: 42px;
-    letter-spacing: 0.10000000149011612px;
     color: #ffffff;
-    margin-left: 200px;
-    margin-top: 60px;
 }
 
 .textwo {
     height: 40px;
     width: 480px;
     color: #ffffff;
-    margin-left: 160px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0.10000000149011612px;
     text-align: center;
 }
 
@@ -444,11 +566,6 @@ h6 {
     font-size: 72px;
 }
 
-#color {
-    margin-right: 404px;
-    margin-left: 284px;
-
-}
 
 .searchButton {
     border-top-right-radius: 12px;
@@ -510,6 +627,7 @@ h6 {
     margin-left: 20px;
     border: 2px solid #4E60FF;
     border-radius: 11px;
+    object-fit: cover;
 }
 
 .boxone {
@@ -549,6 +667,7 @@ h6 {
 
 .main {
     width: 1110px;
+    height: 100vh;
     margin: auto;
 }
 
@@ -676,7 +795,6 @@ h6 {
 /*
 .featured {
     margin-left: 10px;
-
     height: 16px;
     width: 62px;
     font-size: 11px;
@@ -686,7 +804,6 @@ h6 {
     color: white;
     background-color: #4E60FF;
 }
-
 .background {
     margin-left: 250px;
     background-color: #4E60FF;
@@ -703,7 +820,7 @@ h6 {
     margin-top: 5px;
 }
 
-#clock {
+.clock {
     margin-left: 17px;
 }
 
@@ -740,7 +857,6 @@ h6 {
 }
 
 
-
 .cssborder3 {
     margin-left: 50px;
     border: 1px solid #b4aeae;
@@ -757,48 +873,56 @@ h6 {
 }
 
 .settings {
-    margin-left: 115px;
     font-size: 30px;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 28px;
     letter-spacing: 0.10000000149011612px;
 
 
 }
 
-.account {
-    margin-left: 115px;
+.settingList {
     border: 2px solid #4E60FF;
     height: 72px;
     width: 300px;
-    left: 0px;
-    top: 0px;
     border-radius: 16px;
     display: flex;
     flex-flow: row nowrap;
-
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.user {
-    margin-left: 20px;
+.settingIcon {
     height: 40px;
     width: 40px;
-    left: 0px;
-    top: 0px;
     border-radius: 12px;
-    background: #4E60FF;
+    background: #c4c4c4;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.active {
+    background: #4E60FF;
+}
+
+.first {
+    margin-top: 20px;
 }
 
 .fa {
     color: rgb(105, 105, 105);
 }
 
-#someaccount {
+.someAccount {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
     margin-left: 20px;
     font-size: 14px;
-    font-weight: 700px;
-    letter-spacing: 0.10000000149011612px;
+    font-weight: 700;
     color: #2B2B43;
 }
 
@@ -806,170 +930,69 @@ h6 {
     font-size: 13px;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: 0.20000000298023224px;
     color: #545563;
-}
-
-.address {
-    margin-top: 20px;
-    margin-left: 115px;
-    border: 1px solid #a0a0a0;
-    height: 72px;
-    width: 300px;
-    left: 0px;
-    top: 0px;
-    border-radius: 16px;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-.map {
-    margin-left: 20px;
-    height: 40px;
-    width: 40px;
-    border-radius: 12px;
-    background: #c4c4c4;
-
-}
-
-#addresspart {
-    margin-left: 20px;
-    font-size: 14px;
-    font-weight: 700px;
-    letter-spacing: 0.10000000149011612px;
-    color: #2B2B43;
-
 }
 
 .fas {
-    margin-left: 9px;
-    margin-bottom: 9px;
-    margin-top: 9px;
     color: rgb(85, 85, 85);
-}
-
-.paymentmethod {
-    margin-top: 20px;
-    margin-left: 115px;
-    border: 1px solid #a0a0a0;
-    height: 72px;
-    width: 300px;
-    left: 0px;
-    top: 0px;
-    border-radius: 16px;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-.card {
-    margin-left: 20px;
-    height: 40px;
-    width: 40px;
-    border-radius: 12px;
-    background: #bdbbbb;
-}
-
-#paymentpart {
-    margin-left: 20px;
-    font-size: 14px;
-    font-weight: 700px;
-    letter-spacing: 0.10000000149011612px;
-    color: #2B2B43;
-}
-
-.credit {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.20000000298023224px;
-    color: #545563;
-}
-
-.security {
-    margin-top: 20px;
-    margin-left: 115px;
-    border: 1px solid #a0a0a0;
-    height: 72px;
-    width: 300px;
-    left: 0px;
-    top: 0px;
-    border-radius: 16px;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-.passwordtwo {
-    margin-left: 20px;
-    height: 40px;
-    width: 40px;
-    border-radius: 12px;
-    background: #bdbbbb;
-}
-
-#fa2 {
-    margin-left: 20px;
-    font-size: 14px;
-    font-weight: 700px;
-    letter-spacing: 0.10000000149011612px;
-    color: #2B2B43;
-}
-
-.pas {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.20000000298023224px;
-    color: #545563;
 }
 
 .flex4 {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
 
 .accounttwo {
-    margin-top: 20px;
-    margin-left: 55px;
     font-size: 30px;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 28px;
-    letter-spacing: 0.10000000149011612px;
-
+    margin: 30px 0px;
 }
 
 .borderdiv {
-    margin-left: 43px;
-    height: 748px;
-    width: 700px;
+    display: flex;
+    flex-direction: column;
     border-radius: 16px;
-    border: 1px solid #808285
+    border: 1px solid #808285;
+    width: 730px;
+    margin-top: 20px;
 }
 
 .info {
     height: 24px;
-    width: 698px;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.10000000149011612px;
-    text-align: left;
+    margin-left: 16px;
+}
+
+.personalHeader {
+    margin-top: 24px;
 }
 
 .av {
     height: 16px;
-    width: 698px;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
-    letter-spacing: 0px;
-    text-align: left;
     color: #545563;
-    margin: 15px;
+    margin-bottom: 8px;
 }
 
 .avatar {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+.personalImg {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
 }
 
 
@@ -979,7 +1002,7 @@ h6 {
     margin-left: 15px;
     top: -30px;
     border-radius: 12px;
-
+    object-fit: cover;
 }
 
 .brd {
@@ -993,24 +1016,33 @@ h6 {
 .button {
     margin-top: 5px;
     margin-left: 7px;
-
+    width: 70px;
+    height: 33px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ffffff;
+    color: #777;
 }
 
-.rem {
-    margin-top: 19px;
-    margin-left: 7px;
+.clicked {
+    border: 1px solid #4E60FF;
+    color: #4E60FF;
 }
 
 .firstname {
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: 0px;
     color: #545563;
-    margin: 25px;
+    margin-bottom: 4px;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
 }
 
 .name {
-    margin: 25px;
     height: 44px;
     width: 311px;
     border-radius: 8px;
@@ -1019,7 +1051,8 @@ h6 {
 
 .flex5 {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .flex6 {
@@ -1038,124 +1071,243 @@ h6 {
     margin-left: 25px;
 }
 
-.divpart {
-    margin: 25px;
-}
-
-.div2 {
-    margin-top: 12px;
-}
-
-.div3 {
-    margin-top: 12px;
-}
-
-.divparttwo {
-    margin-top: 25px;
-    margin-left: 210px;
+.checkboxPart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: space-evenly;
 }
 
 .flex7 {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    height: 108px;
+    width: 75%;
+    justify-content: space-between;
 }
 
-.logout {
+.check {
+    margin-bottom: 10px;
+  
+}
+
+.footer {
+    margin-bottom: 10px;
+}
+
+.checkboxes {
+    margin-bottom: 60px;
+}
+
+input[type=checkbox] {
+    accent-color: red;
+  }
+
+.log {
+    color: #FF5C60;
     border: 1px solid #FF5C60;
     width: 70px;
     height: 30px;
     border-radius: 11px;
     margin: 20px;
-}
-
-.log {
-    margin: 5px;
-    color: #FF5C60;
+    background-color: #ffffff;
 }
 
 .footer {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.discard {
+.dis {
+    color: #8a8888;
     border: 1px solid #8a8888;
     width: 120px;
     height: 30px;
     border-radius: 11px;
-    margin-top: 20px;
-    margin-left: 330px;
+    background-color: #ffffff;
+
 }
 
-.dis {
-    margin: 5px;
-    color: #8a8888;
-}
-
-.save {
+.changes {
+    color: #ffffff;
     border: 1px solid #8a8888;
     width: 120px;
     height: 30px;
     border-radius: 11px;
     background-color: #4E60FF;
-    margin-top: 20px;
-    margin-left: 15px;
 }
 
-.changes {
-    margin: 5px;
-    color: #8a8888;
+.accountInfo {
+    margin-left: 20px;
 }
 
 @media only screen and (max-width: 1300px) {
     .main {
         width: 100%;
     }
-  }
+}
 
 @media only screen and (max-width: 1188px) {
     .main {
         width: 100%;
     }
-  }
+}
 
-  @media only screen and (max-width: 840px) {
+@media only screen and (max-width: 1174px) {
+    .sushiPart {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .borderdiv {
+        width: fit-content;
+    }
+    .child3 {
+       width: auto;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .child1 {
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 955px) {
+    .avatar {
+        justify-content: space-evenly;
+    }
+    .part {
+        display: none;
+    }
+
+    .loginPage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 840px) {
     .main {
         margin: auto;
     }
+
     .nav nav {
         display: none;
     }
-  }
+}
 
-  @media only screen and (max-width: 700px) {
-      .main {
-          margin-left: 10px;
-          margin-right: 10px;
-      }
+@media only screen and (max-width: 700px) {
+    .main {
+        margin-right: 10px;
+    }
+
     .searchBar .newchild2 {
         display: none;
     }
-  }
 
-  @media only screen and (max-width: 600px) {
+    .flex4 {
+        flex-direction: column;
+    }
+
+    .settingspart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .accountInfo {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .box {
         margin-right: 10px;
     }
-  }
+}
 
-  @media only screen and (max-width: 550px) {
+@media only screen and (max-width: 550px) {
     .boxone, .boxtwo {
-       width: 360px;
-       margin-left: 20px;
-    } 
-    
-  }
+        width: 360px;
+        margin-left: 20px;
+    }
 
-  @media only screen and (max-width: 360px) {
+}
+
+@media only screen and (max-width: 410px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .log {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 377px) {
+    .login, .foodDelivery {
+        align-items: center;
+    }
+    .loginField {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .field {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .loginButtons {
+     width: 100%;
+    }
+
+    .blue, .forgot, .text, .com {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
     .boxone, .boxtwo {
-       width: 360px;
-       margin-left: 20px;
-    } 
-    
-  }
+        width: 360px;
+        margin-left: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .logout {
+        width: 88%;
+    }
+
+    .accountInfo {
+        margin-left: 0;
+    }
+
+    .discardAndSave {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .dis {
+        margin-left: 15px;
+    }
+
+    .changes {
+        margin-left: 40px;
+    }
+
+}
